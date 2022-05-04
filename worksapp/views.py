@@ -4,7 +4,6 @@ from . import models
 from .serializers import MusicSerializer
 
 class MusicView(ListAPIView):
-    #permission_classes = [AllowAny]
     serializer_class = MusicSerializer
 
     def get_queryset(self):
