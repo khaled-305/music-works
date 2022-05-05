@@ -1,7 +1,6 @@
-# Admin Login Details
-- Username: admin
-- Password: swordfish
 
+docker-compose build
+docker-compose up
 python manage.py makemigrations
 python manage.py migrate
 
